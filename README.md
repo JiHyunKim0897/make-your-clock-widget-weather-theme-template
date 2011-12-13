@@ -1,15 +1,13 @@
 Make Your Clock Widget Weather Plugin Template
 ==============================================
 
-By cloning this project you can create your own weather icons plugin for Make Your Clock Widget application.
+By forking this project you can create your own weather icons plugin for <a href="http://www.makeyourclock.com">Make Your Clock Widget application</a>.
 
-Project Q/A
------------
+Instructions how to make plugin properly you can find at <a href="wiki/Main">project wiki</a>
 
-Q: What is Make Your Clock Widget application?
+Application you can download from Android Market:
 
-A: Make Your Clock Widget application is widget editor for Android. You can create your own clock/dasboard while sitting on the toilet or listening to your boss on boring meeting.
-
-Q: Where I get more info about Make Your Clock Widget application?
-
-A: Visit official website at http://www.makeyourclock.com
+- Pro Phone version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.pro
+- Free Phone version - https://market.android.com/details?id=net.hubalek.android.makeyourclock
+- Pro Tablet version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.tablet.pro
+- Free Tablet version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.tablet
