@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">weather-themes-base-library</string>
+    
+	<string name="weather_icon_theme_author_name">John Doe</string>
+	<string name="weather_icon_theme_author_web_url">http://www.example.com</string>
+	<string name="weather_icon_theme_description">Coolest Make Your Clock Weather Icon Ever!</string>
+</resources>
