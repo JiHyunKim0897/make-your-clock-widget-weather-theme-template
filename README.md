@@ -3,7 +3,7 @@ Make Your Clock Widget Weather Plugin Template
 
 By forking this project you can create your own weather icons plugin for <a href="http://www.makeyourclock.com">Make Your Clock Widget application</a>.
 
-Instructions how to make plugin properly you can find at <a href="wiki/Main">project wiki</a>
+Instructions how to make plugin properly you can find at <a href="https://github.com/thubalek/make-your-clock-widget-weather-theme-template/wiki/Main">project wiki</a>.
 
 Application you can download from Android Market:
 
