@@ -7,7 +7,8 @@ Instructions how to make plugin you can find at <a href="http://www.makeyourcloc
 
 Application itself can downloaded from Android Market and for testing themes you can use Free flavor:
 
-- Pro Phone version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.pro
 - Free Phone version - https://market.android.com/details?id=net.hubalek.android.makeyourclock
-- Pro Tablet version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.tablet.pro
 - Free Tablet version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.tablet
+
+- Pro Tablet version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.tablet.pro
+- Pro Phone version - https://market.android.com/details?id=net.hubalek.android.makeyourclock.pro
