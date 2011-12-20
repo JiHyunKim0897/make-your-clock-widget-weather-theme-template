@@ -9,8 +9,8 @@
 
 
     <!-- If you wanna have paypal donation link in the app, please fill in items bellow. Otherwise leave them as they are -->
-    <string name="weather_icon_theme_donation_quantity">0.99</string>  <!-- Use decimal dot -->
+    <string name="weather_icon_theme_donation_quantity">0.00</string>  <!-- Use decimal dot -->
     <string name="weather_icon_theme_donation_currency">EUR</string> <!-- Use currency code that PayPal supports. Eg. EUR, USD, CZK -->
-    <string name="weather_icon_theme_donation_email">android.dev.tom@gmail.com</string> <!-- Fill in email that you use when login on to PayPal -->
+    <string name="weather_icon_theme_donation_email">john.doe@example.com</string> <!-- Fill in email that you use when login on to PayPal -->
 
 </resources>
