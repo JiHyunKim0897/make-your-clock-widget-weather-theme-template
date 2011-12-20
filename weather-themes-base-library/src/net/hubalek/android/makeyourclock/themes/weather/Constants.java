@@ -17,6 +17,10 @@ public class Constants {
 	public static final String CONTENT_PROVIDER_CURSOR_COLUMN_URL = "url";
 	public static final String CONTENT_PROVIDER_CURSOR_COLUMN_DESCRIPTION = "description";
 
+    public static final String CONTENT_PROVIDER_CURSOR_COLUMN_DONATE_EMAIL = "donate_email";
+    public static final String CONTENT_PROVIDER_CURSOR_COLUMN_DONATE_CURRENCY = "donate_currency";
+    public static final String CONTENT_PROVIDER_CURSOR_COLUMN_DONATE_AMOUNT = "donate_amount";
+
 	public static final String CONTENT_PROVIDER_PATH_ELEMENT_INFO = "info";
 	public static final String CONTENT_PROVIDER_PATH_ELEMENT_ICONS = "icons";
 	public static final String CONTENT_PROVIDER_PATH_ELEMENT_SAMPLE_ICON = "sample-icon";

@@ -7,6 +7,21 @@ import net.hubalek.android.makeyourclock.themes.weather.AbstractWeatherIconsProv
  */
 public class WeatherIconsProvider extends AbstractWeatherIconsProvider {
     @Override
+    protected int getDonationEmailResourceId() {
+        return R.string.weather_icon_theme_donation_email;
+    }
+
+    @Override
+    protected int getDonationAmountResourceId() {
+        return R.string.weather_icon_theme_donation_quantity;
+    }
+
+    @Override
+    protected int getDonationCurrencyResourceId() {
+        return R.string.weather_icon_theme_donation_currency;
+    }
+
+    @Override
     protected int getDescriptionResourceId() {
         return R.string.weather_icon_theme_description;
     }

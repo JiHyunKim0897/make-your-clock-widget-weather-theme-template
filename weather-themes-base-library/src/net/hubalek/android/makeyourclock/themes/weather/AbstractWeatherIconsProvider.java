@@ -94,19 +94,33 @@ public abstract class AbstractWeatherIconsProvider extends ContentProvider {
             MatrixCursor retVal = new MatrixCursor(new String[]{
             		CONTENT_PROVIDER_CURSOR_COLUMN_AUTHOR, 
             		CONTENT_PROVIDER_CURSOR_COLUMN_URL, 
-            		CONTENT_PROVIDER_CURSOR_COLUMN_DESCRIPTION
+            		CONTENT_PROVIDER_CURSOR_COLUMN_DESCRIPTION,
+
+                    CONTENT_PROVIDER_CURSOR_COLUMN_DONATE_CURRENCY,
+                    CONTENT_PROVIDER_CURSOR_COLUMN_DONATE_AMOUNT,
+                    CONTENT_PROVIDER_CURSOR_COLUMN_DONATE_EMAIL
            });
             retVal.addRow(new String[]{
                     resources.getString(getAuthorResourceId()),
                     resources.getString(getAuthorUrlResourceId()),
-                    resources.getString(getDescriptionResourceId())
-            }
+                    resources.getString(getDescriptionResourceId()),
+
+                    getDonationCurrencyResourceId() > 0 ? resources.getString(getDonationCurrencyResourceId()) : "",
+                    getDonationAmountResourceId() > 0 ? resources.getString(getDonationAmountResourceId()) : "0.0",
+                    getDonationEmailResourceId() > 0 ? resources.getString(getDonationEmailResourceId()) : "",
+                }
             );
 
             return retVal;
         }
         return null;
     }
+
+    protected abstract int getDonationEmailResourceId();
+
+    protected abstract int getDonationAmountResourceId();
+
+    protected abstract int getDonationCurrencyResourceId();
 
     protected abstract int getDescriptionResourceId();
 
